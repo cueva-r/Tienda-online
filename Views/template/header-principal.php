@@ -38,6 +38,7 @@
 
    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/principal/slick/slick.css">
    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/principal/slick/slick-theme.css">
+   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    <script src="https://www.paypal.com/sdk/js?client-id=<?php echo CLIENT_ID; ?>&currency=<?php echo MONEDA; ?>"></script>
@@ -58,7 +59,7 @@
                <div class="col-sm-12">
                   <div class="custom_menu">
                      <ul>
-                        <li><a href="https://informatica-programacion.com/">Tienda online</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>">Tienda online</a></li>
                      </ul>
                   </div>
                </div>
